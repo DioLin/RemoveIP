@@ -4,7 +4,6 @@
 import argparse
 import pandas as pd
 from cyberpandas import IPArray,ip_range
-from cyberpandas import ip_range
 
 
 def RemoveIP(raw_df,IP_columns_position,StartIP,EndIP,IParr):
