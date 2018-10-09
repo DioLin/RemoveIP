@@ -68,5 +68,3 @@ if __name__ == '__main__':
     print('success!!')
 
 
-#df.to_csv('/AfterRemoveIP/Q3/CHT/M3_part15/2/CSV/en/vulnerabilities.csv', index = False)
-
