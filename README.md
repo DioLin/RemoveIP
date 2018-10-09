@@ -17,19 +17,19 @@ For CSV file
         or 
         python removeip_V2.py -i 'keepIPlist.csv' -f 0 -r 'vulnerabilities.csv' -w 'vulnerabilities_en.csv'
         
-usage: removeip_V3.py [-h] [-s] [-e] [-i] [-f] [-r] [-w]
+        usage: removeip_V3.py [-h] [-s] [-e] [-i] [-f] [-r] [-w]
 
-leave IP or IP range you want to keep.
+        leave IP or IP range you want to keep.
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -s , --start-ip       start form IP
-  -e , --end-ip         end of IP
-  -i , --ip-list        read IP list in csv
-  -f , --specific-field 
-                        which field include IP address,default vaule is
-                        columns 0'th
-  -r , --file-read      the file you want to remove/keep certain IP
-  -w , --file-write     save path
+        optional arguments:
+          -h, --help            show this help message and exit
+          -s , --start-ip       start form IP
+          -e , --end-ip         end of IP
+          -i , --ip-list        read IP list in csv
+          -f , --specific-field 
+                                which field include IP address,default vaule is
+                                columns 0'th
+          -r , --file-read      the file you want to remove/keep certain IP
+          -w , --file-write     save path
         
 
